@@ -1,0 +1,13 @@
+.course{
+    display: flex;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.image{
+ text-align: center;
+ padding: 10px 10px;
+}
+p{
+    color:blue ;
+}
