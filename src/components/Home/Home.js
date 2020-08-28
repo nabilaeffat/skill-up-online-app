@@ -22,7 +22,7 @@ const Home = () => {
 
   <Container>
   <Row>
-    <Col sm={8}>
+    <Col sm={10}>
       {
         courses.map(course => <Course
         handleEnroll={handleEnroll}
@@ -30,7 +30,7 @@ const Home = () => {
         ></Course>)
       }
     </Col>
-    <Col sm={4}>
+    <Col sm={2}>
       <Cart cart={cart}></Cart>
     </Col>
   </Row>
